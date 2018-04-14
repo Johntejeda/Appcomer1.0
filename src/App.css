@@ -1,5 +1,9 @@
 .page-header{
-font-style: italic;
- background: purple;
+font-family: Georgia, "Times New Roman", Times, serif;
+ background: #f0ad4e;
  height: 100px;
+}
+
+.page-header{
+    font-style: italic;
 }
