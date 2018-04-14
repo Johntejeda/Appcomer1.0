@@ -9,7 +9,7 @@ class Search extends Component {
       <FormGroup>
 
     <FormControl type="text" placeholder="Normal text" />
-      
+
       </FormGroup>
       </form>
 
