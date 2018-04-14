@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
-import Header from  './Components/Header.jsx'
+import Map from './Map.jsx';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-          <Header />
+      <div className="App">
+    que onda
+
+    <div className="Map">
+    is mapping!!
+    <Map />
+    </div>
+      </div>
     );
   }
 }
