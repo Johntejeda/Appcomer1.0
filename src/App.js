@@ -20,3 +20,6 @@ class App extends Component {
           <Search />
     );
   }
+}
+
+export default App;
