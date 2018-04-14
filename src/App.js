@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Header from  './Components/Header.jsx'
+import Search from  './Components/Search.jsx'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-          <Header />
+
+          <Search />
     );
   }
 }
