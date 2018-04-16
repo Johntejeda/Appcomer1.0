@@ -100,5 +100,20 @@ font-family: 'Anton', sans-serif;
 
    . {
     margin-right: 20px;
+<<<<<<< 9b56d1d6b08c656d26a08fc0f8f1c552c549c947
   } 
 }
+=======
+  } */
+}
+
+#map {
+       height: 400px;
+       width: 100%;
+      }
+#body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+     }
+>>>>>>> Finished rendering the MAP
