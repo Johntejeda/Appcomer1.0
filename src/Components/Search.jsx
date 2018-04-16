@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import axios from 'axios'
 
-const {API_KEY} = 'z7F9VjZlW6omDmuSPR482T_JAB-ERcwqNFRnYrsrwtQUeD9ZgCaROTSYmG2Jg9qjWefU4xtimGQJ_MvVSN1SZZGOCnVDH6v-7jI8wVt0vGZCvcaL_ukaP2LUje_HWnYx';
-const API_URL = 'https://api.yelp.com/v3/businesses/search';
+
+const {API_KEY} = 'AIzaSyBD2x3uoBXe8vWtIaBkvRvlrD9msa-XhnM';
+const API_URL = 'https://maps.googleapis.com/maps/api/';
 
 class Search extends Component {
   state = {
@@ -13,8 +14,7 @@ class Search extends Component {
   getInfo = () => {
     axios.get(`${API_URL}?api_key=${API_KEY}&prefix=${this.state.query}&limit=7`).then(({data}) => {
       this.setState({
-        results: data.data // MusicGraph returns an object named data,
-        // as does axios. So... data.data
+        results: data.data
       })
     })
   }
