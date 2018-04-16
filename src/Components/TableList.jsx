@@ -1,0 +1,27 @@
+import React, { Component } from 'react';
+import { component } from 'react';
+
+import classnames from 'classnames'
+
+class TableList extends Component {
+    render(){
+        return(
+            <div className="tableList-entry list-group">
+            <div className="media-left media-middle">
+              <img className="media-object" />
+            </div>
+            <div className="list-body">
+            <h1>this shit is rendering!</h1>
+              {/* <div className="result-list-entry-title" onClick={() =>{
+               handleVideolistEntryTitleClick(result)}}>{result.businesses.name}
+            </div> */}
+              <div className="result-list-entry-detail"></div>
+            </div>
+          </div>);
+    }
+}
+export default TableList;
+
+
+
+
