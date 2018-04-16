@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import axios from 'axios'
+import axios from 'axios';
 
 
-const {API_KEY} = 'AIzaSyBD2x3uoBXe8vWtIaBkvRvlrD9msa-XhnM';
+const {API_KEY} = process.env
 const API_URL = 'https://maps.googleapis.com/maps/api/';
 
 class Search extends Component {
@@ -39,4 +39,4 @@ class Search extends Component {
   }
 }
 
-export default Search
+export default Search;
