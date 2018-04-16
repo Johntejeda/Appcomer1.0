@@ -5,10 +5,10 @@ import {form,FormGroup,FormControl} from "react-bootstrap";
 class Search extends Component {
   render() {
     return (
-      <form>
+      <form className="search">
       <FormGroup>
 
-    <FormControl type="text" placeholder="Normal text" />
+    <FormControl type="text" placeholder="Search Restaurant" />
 
       </FormGroup>
       </form>
