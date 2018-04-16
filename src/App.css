@@ -20,7 +20,6 @@ body {
   background: #FAEBD7;
 }
 
-
 .tablelist {
   background: #fff;
   padding: 8px;
@@ -36,6 +35,7 @@ body {
 
 .result-list-entry-title {
   font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .result-list-entry-title:hover {
@@ -56,7 +56,7 @@ body {
   padding-left: 20px;
 }
 
-h5 {
+.h5 {
   border: 2px solid red;
   text-align: center;
   padding: 10px;
