@@ -13,9 +13,9 @@ import SearchBox from "react-google-maps/lib/components/places/SearchBox";
 const Map = compose(
   withProps({
     googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyBD2x3uoBXe8vWtIaBkvRvlrD9msa-XhnM&v=3.exp&libraries=geometry,drawing,places",
-    loadingElement: <div style={{ height: `100%` }} />,
+    loadingElement: <div style={{ height: `50%` }} />,
     containerElement: <div style={{ height: `400px` }} />,
-    mapElement: <div style={{ height: `100%` }} />
+    mapElement: <div style={{ height: `90%`, width:`50%` }} />
     }),
   lifecycle({
     componentWillMount(){
@@ -77,7 +77,7 @@ const Map = compose(
     <SearchBox
       ref={props.onSearchBoxMounted}
       bounds={props.bounds}
-      controlPosition={12}
+      controlPosition={1}
       onPlacesChanged={props.onPlacesChanged}
     >
     <input
