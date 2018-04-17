@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import axios from 'axios';
+
 
 const {API_KEY} = process.env
 const API_URL = 'https://maps.googleapis.com/maps/api/';
@@ -10,13 +10,7 @@ class Search extends Component {
     results: []
   }
 
-  getInfo = () => {
-    axios.get(`${API_URL}?api_key=${API_KEY}&prefix=${this.state.query}&limit=7`).then(({data}) => {
-      this.setState({
-        results: data.data
-      })
-    })
-  }
+
 
   handleInputChange = () => {
     this.setState({
@@ -44,4 +38,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default Search; 
