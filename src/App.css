@@ -100,5 +100,23 @@ font-family: 'Anton', sans-serif;
 
    . {
     margin-right: 20px;
+<<<<<<< 9b56d1d6b08c656d26a08fc0f8f1c552c549c947
   } 
 }
+=======
+  } */
+}
+<<<<<<< f5d0d4568107b779985d833c40087bc273514fd9
+
+#map {
+       height: 400px;
+       width: 100%;
+      }
+#body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+     }
+>>>>>>> Finished rendering the MAP
+=======
+>>>>>>> Map map a better sizing component
