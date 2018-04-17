@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Search from  './Components/Search.jsx';
 import Header from './Components/Header.jsx';
-// import Map from './Component/Map.jsx';
+import Map from './Components/Map.jsx';
 import TableList from './Components/TableList.jsx';
 import './App.css';
 import { Grid, Row, Col, Clearfix } from 'react-bootstrap';
@@ -15,14 +14,20 @@ class App extends Component {
 
   return (
 
-      <div>
+      <div className="container">
+        <div className="row">
           <Header />
-          <Search />
-          {/* <Map /> */}
+          <div>
+            <div>
+          <Map />
           <TableList />
+            </div>
+        </div>
+       </div>
       </div>
     );
   }
 }
+
 
 export default App;
