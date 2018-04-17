@@ -91,12 +91,6 @@ font-family: 'Anton', sans-serif;
   color: #f87800;
 }
 
-@list-group  (max-width: 767px) {
-  .tablelist {
-    margin-left: 20px;
-  }
-
-   . {
-    margin-right: 20px;
-  } 
+.list-group  (max-width: 767px) {
+  
 }
