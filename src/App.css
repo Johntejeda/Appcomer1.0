@@ -32,12 +32,10 @@ font-family: 'Anton', sans-serif;
   text-align: center;
   margin-bottom: 20px;
   border-radius: 2px;
-  background: # fff;
   height: 30px;
 }
 
 .search-bar .form-control {
-  
   width: 80%
 }
 .search-bar .btn {
