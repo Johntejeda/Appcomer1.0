@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Search from  './Components/Search.jsx';
 import Header from './Components/Header.jsx';
 import Map from './Components/Map.jsx';
 import TableList from './Components/TableList.jsx';
@@ -15,14 +14,20 @@ class App extends Component {
 
   return (
 
-      <div>
+      <div className="container">
+        <div className="row">
           <Header />
-          <Search />
+          <div>
+            <div>
           <Map />
           <TableList />
+            </div>
+        </div>
+       </div>
       </div>
     );
   }
 }
+
 
 export default App;

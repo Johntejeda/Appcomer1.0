@@ -11,6 +11,7 @@ import {compose, withProps, lifecycle} from 'recompose';
 import _ from 'lodash'
 import SearchBox from "react-google-maps/lib/components/places/SearchBox";
 
+
 const Map = compose(
   withProps({
     googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyBD2x3uoBXe8vWtIaBkvRvlrD9msa-XhnM&v=3.exp&libraries=geometry,drawing,places",
