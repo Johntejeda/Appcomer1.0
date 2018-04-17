@@ -6,6 +6,7 @@ import {
   Marker,
   google
 } from "react-google-maps";
+
 import {compose, withProps, lifecycle} from 'recompose';
 import _ from 'lodash'
 import SearchBox from "react-google-maps/lib/components/places/SearchBox";
