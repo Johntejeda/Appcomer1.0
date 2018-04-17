@@ -19,7 +19,7 @@ class App extends Component {
         </Row>
         <Row>
           <Col md={8}>
-          <Map />
+            {/* <Map /> */}
           </Col>
           <Col md={4}>
             <TableList />
