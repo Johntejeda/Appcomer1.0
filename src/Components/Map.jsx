@@ -4,7 +4,8 @@ import {
   withGoogleMap,
   GoogleMap,
   Marker,
-  google
+  google,
+  maps
 } from "react-google-maps";
 
 import {compose, withProps, lifecycle} from 'recompose';
@@ -43,7 +44,7 @@ const Map = compose(
          },
          onPlacesChanged: () => {
            const places = refs.searchBox.getPlaces();
-           const bounds = new google.maps.LatLngBounds();
+           const bounds = new window.google.maps.LatLngBounds({lat:19.308451, lng:-99.232083},{lat: 19.567233, lng:-99.016398});
 
            places.forEach(place => {
              if (place.geometry.viewport) {

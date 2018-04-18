@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-import { component } from 'react';
-import classnames from 'classnames'
+import React, {Component} from 'react';
 
 class TableList extends Component {
     render(){
