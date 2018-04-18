@@ -5,7 +5,8 @@ import {
   GoogleMap,
   Marker,
   google,
-  maps
+  maps,
+  InfoWindow,
 } from "react-google-maps";
 
 import {compose, withProps, lifecycle} from 'recompose';
@@ -57,7 +58,8 @@ const Map = compose(
              position: place.geometry.location,
            }));
            const nextCenter = _.get(nextMarkers, '0.position', this.state.center);
-
+ 
+           
            this.setState({
              center: nextCenter,
              markers: nextMarkers,
@@ -99,6 +101,7 @@ const Map = compose(
           outline: `none`,
           textOverflow: `ellipses`,
         }}
+        
       />
     </SearchBox>
     {props.markers.map((marker, index) =>
@@ -109,4 +112,10 @@ const Map = compose(
 
 
 
+
+
 export default Map;
+
+
+
+

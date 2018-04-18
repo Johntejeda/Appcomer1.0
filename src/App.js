@@ -4,7 +4,7 @@ import Map from './Components/Map.jsx';
 import TableList from './Components/TableList.jsx';
 import './App.css';
 import { Grid, Row, Col, Clearfix } from 'react-bootstrap';
-
+import {ColumnAlignTable} from 'react-bootstrap';
 
 class App extends Component {
   constructor(props){
