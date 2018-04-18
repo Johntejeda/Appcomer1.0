@@ -32,12 +32,10 @@ font-family: 'Anton', sans-serif;
   text-align: center;
   margin-bottom: 20px;
   border-radius: 2px;
-  background: # fff;
   height: 30px;
 }
 
 .search-bar .form-control {
-  
   width: 80%
 }
 .search-bar .btn {
@@ -91,14 +89,4 @@ font-family: 'Anton', sans-serif;
   color: white;
   font-family: 'Lora', serif;
   color: #f87800;
-}
-
-@list-group  (max-width: 767px) {
-  .tablelist {
-    margin-left: 20px;
-  }
-
-   . {
-    margin-right: 20px;
-  } 
 }

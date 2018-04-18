@@ -5,12 +5,15 @@ const {API_KEY} = process.env
 const API_URL = 'https://maps.googleapis.com/maps/api/';
 
 class Search extends Component {
-  state = {
-    query: '',
-    results: []
-  }
+  render() {
+    return (
+      <form>
+      <FormGroup>
 
-
+    <FormControl type="text" placeholder="Normal text" />
+      
+      </FormGroup>
+      </form>
 
   handleInputChange = () => {
     this.setState({

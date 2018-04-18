@@ -1,3 +1,9 @@
+import PropTypes from 'prop-types';
+import debounce from 'lodash.debounce';
+import { compose } from './helpers';
+
+
+
 const _ = require("lodash");
 const { compose, withProps, lifecycle } = require("recompose");
 const {
@@ -39,7 +45,7 @@ const MapWithASearchBox = compose(
         },
         onPlacesChanged: () => {
           const places = refs.searchBox.getPlaces();
-          const bounds = new google.maps.LatLngBounds();
+          const bounds = google.maps.LatLngBounds();
 
           places.forEach(place => {
             if (place.geometry.viewport) {
@@ -102,3 +108,4 @@ const MapWithASearchBox = compose(
 );
 
 <MapWithASearchBox />
+
