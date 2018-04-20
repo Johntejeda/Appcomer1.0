@@ -3,17 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "classnames": "^2.2.5",
-    "lodash": "^4.17.5",
-=======
-    "axios": "^0.18.0",
->>>>>>> e556e78269310a409c6d534b8d5393f115068b70
     "react": "^16.3.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.1",
     "react-google-maps": "^9.4.5",
     "react-scripts": "1.1.4",
+    "react-share": "^2.1.1",
+    "react-social": "^1.10.0",
     "recompose": "^0.26.0"
   },
   "scripts": {
